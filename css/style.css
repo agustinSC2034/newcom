@@ -3,16 +3,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.tituloCarrousel{
-  font-size: large;
-  font-weight: bold;
-  color: #000;
-  text-align: center;
-}
-
-.tituloCarrousel a{
-  color: #000;
-}
 
 body {
   background: #fff;
@@ -48,6 +38,37 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+.carousel {
+  display: flex;
+}
+
+.video-wrapper {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+
+.tituloCarrousel{
+  font-size: large;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.tituloCarrousel a{
+  color: #000;
+}
+
+.tituloCarrousel a:focus{
+  color: #028fcc;
 }
 
 /* Back to top button */
